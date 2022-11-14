@@ -21,7 +21,7 @@
 
   sound.enable = true;
   hardware.pulseaudio.enable = true;
-  users.users.fisheye = {
+  users.users.sky360 = {
     isNormalUser = true;
     extraGroups = [ "wheel" ];
     initialPassword = "sky360";
