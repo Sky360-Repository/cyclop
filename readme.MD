@@ -4,6 +4,8 @@
 
 the current development is in nixpkgs. the `indi-full` has an issue to support the build of the QHY camera driver. 
 
+For more information follow the issue: https://github.com/NixOS/nixpkgs/pull/200472
+
 # install indi-full runtime
 
 ```nix
