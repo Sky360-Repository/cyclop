@@ -3,6 +3,7 @@
 #include <sensor_msgs/msg/image.hpp>
 #include <diagnostic_msgs/msg/diagnostic_status.hpp>
 #include <diagnostic_updater/diagnostic_updater.hpp>
+#include <mutex>
 
 class QHYCameraNode : public rclcpp::Node
 {
