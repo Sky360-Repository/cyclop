@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package>
+  <name>qhy_camera_node</name>
+  <version>0.0.1</version>
+  <maintainer email="ido.samuelson@.com">Ido Samuelson</maintainer>
+  <description>This package contains a ROS2 node for connecting to a QHY 183 camera and grabbing frames.</description>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>QHYCCD</depend>
+  <exec_depend>ament_index_cpp</exec_depend>
+  <exec_depend>ament_lint_auto</exec_depend>
+  <exec_depend>ament_lint_common</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+</package>
