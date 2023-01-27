@@ -39,6 +39,23 @@ sudo apt install <dependency1> <dependency2> ...
     ros2 run qhy_camera_node qhy_camera_node
 ```
 
+## Docker
+
+You can use Docker to build and run the package in a container.
+
+### Build the image
+Navigate to the directory where the Dockerfile is located and run the following command to build the image:
+```
+docker build -t qhy_camera_node .
+
+```
+
+### Runt the container
+Use the following command to run the container:
+```
+docker run --rm -it qhy_camera_node
+
+```
 ## Parameters
 
 The following parameters can be set in the launch file or on the command line:
@@ -56,3 +73,5 @@ camera/image_raw (sensor_msgs/Image) - the raw image data
 ## Diagnostics
 
 You can use the built-in ROS2 diagnostics to check if the camera is connected and if it is working properly.
+
+
